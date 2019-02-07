@@ -1,0 +1,141 @@
+#wrapper {
+  width: 800px;
+  height: 475px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+#bottomMenu {
+  height: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 0.4pt;
+}
+
+#bottomMenuInner {
+  display: block;
+  color: #797d86;
+}
+
+#bottomMenuInner a {
+  color: #797d86;
+}
+
+#bottomMenuInner a:hover {
+  color: #17c60f;
+}
+
+#logo {
+  height: 300px;
+  background-image: url("../img/logo.png");
+  background-size: cover;
+  background-position-y: -50px;
+  background-repeat: no-repeat;
+}
+
+.linkInfo {
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 0.4pt;
+  display: none;
+  padding-top: 25px;
+  color: gray;
+}
+
+#linkList {
+  height: 125px;
+  text-align: center;
+}
+
+.linkButton, .linkButton a {
+  height: 125px;
+  width: 125px;
+  display: inline-block;
+  vertical-align: top;
+  color: dimgray;
+}
+
+.linkButton div {
+  line-height: 125px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2f3136;
+}
+
+#blindInfo {
+  color: #f6f6f6;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#linkYouTube a:hover, #linkInfoYouTube b {
+  color: #FF0000;
+}
+
+#linkYouTube:hover~#linkInfoYouTube {
+  display: block;
+}
+
+#linkTwitch a:hover, #linkInfoTwitch b {
+  color: #6441A4;
+}
+
+#linkTwitch:hover~#linkInfoTwitch {
+  display: block;
+}
+
+#linkTwitter a:hover, #linkInfoTwitter b {
+  color: #1da1f2;
+}
+
+#linkTwitter:hover~#linkInfoTwitter {
+  display: block;
+}
+
+#linkInstagram a:hover, #linkInfoInstagram b {
+  color: #f77737;
+}
+
+#linkInstagram:hover~#linkInfoInstagram {
+  display: block;
+}
+
+#linkBlog a:hover, #linkInfoBlog b {
+  color: #405de6;
+}
+
+#linkBlog:hover~#linkInfoBlog {
+  display: block;
+}
+
+#linkDiscord a:hover, #linkInfoDiscord b {
+  color: #7289da;
+}
+
+#linkDiscord:hover~#linkInfoDiscord {
+  display: block;
+}
+
+#impressum {
+  width: 1200px;
+  height: 900px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 0.4pt;
+  color: gray;
+}
